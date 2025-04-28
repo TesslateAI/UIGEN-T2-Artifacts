@@ -1,6 +1,3 @@
-Okay, I will remove the file and folder links from the README file.
-
-```markdown:c:\Users\Smirk\Documents\Programming\Tesslate\UIGEN-Demo\README.md
 # UIGEN-Demo: UI Generation Model Testing Interface
 
 This project provides a simple web interface to interact with and test UI generation language models, specifically designed initially for `Tesslate/UIGEN-T2`, but configurable for any OpenAI-compatible API endpoint (like a local vLLM instance).
@@ -66,7 +63,7 @@ It features a chat interface to send prompts to the model and a live preview pan
         copy ".env copy" .env
         ```
     *   Edit the `.env` file with your specific API details:
-        ```properties:c:\Users\Smirk\Documents\Programming\Tesslate\UIGEN-Demo\.env
+        ```
         # URL of your OpenAI-compatible API endpoint (e.g., vLLM server)
         VLLM_API_URL=https://your-vllm-or-openai-compatible-api/v1
 
